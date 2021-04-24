@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.biglietteria{
+    width: 600px;
+    height: 350px;
+    background-image: url(../img/pngegg.png);
+    background-color: rgba(99, 158, 226, 0.568);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#costo,
+#passeggero,
+#distanza{
+    border: 1px solid black;
+    width: 90%;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.705);
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0 5px;
+    margin: 5px 0;
+}
+
+#numero_biglietto,
+#eta,
+#sconto{
+    padding: 0 5px;
+}
+
